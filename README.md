@@ -55,57 +55,70 @@ stated [here](https://www.cbs.nl/en-gb/about-us/website/copyright).
 
 1. [`marginal`](datasources/marginal)
     1. [marginal_distributions_84583NED.csv](datasources/marginal/marginal_distributions_84583NED.csv). Source: [
-       *StatLine - Kerncijfers
-       wijken en buurten 2019*](https://opendata.cbs.nl/#/CBS/nl/dataset/84583NED/table?dl=A82FC) (CBS):
+       *Kerncijfers wijken en buurten 2019*](https://opendata.cbs.nl/#/CBS/nl/dataset/84583NED/table?dl=A82FC) (CBS
+       StatLine):
     2. [Regionale_kerncijfers_Nederland_19052024_185018.csv](datasources/marginal/Regionale_kerncijfers_Nederland_19052024_185018.csv).
-       Source: [*StatLine - Regionale Kerncijfers
-       Nederland*](https://opendata.cbs.nl/#/CBS/nl/dataset/70072ned/table?dl=A6290) (CBS)
+       Source: [*Regionale kerncijfers Nederland*](https://opendata.cbs.nl/#/CBS/nl/dataset/70072ned/table?dl=A6290) (
+       CBS StatLine)
 2. [`individual`](datasources/individual)
     1. [`gender`](datasources/individual/gender)
-        1. [gender_age-03759NED-formatted.csv](datasources/individual/gender/Kerncijfers_wijken_en_buurten_2019_15092023_114325.csv).
-           Source: [*StatLine - (TODO)*]() (CBS): (TODO)
+        1. [gender_age-03759NED-formatted.csv](datasources/individual/gender/gender_age-03759NED-formatted.csv).
+           Source: [*Bevolking op 1 januari en gemiddeld; geslacht, leeftijd en
+           regio*](https://opendata.cbs.nl/#/CBS/nl/dataset/03759ned/table?dl=A832A) (CBS StatLine)
     2. [`integer_age`](datasources/individual/integer_age)
         1. [Leeftijdsopbouw Nederland 2019.csv](datasources/individual/integer_age/Leeftijdsopbouw%20Nederland%202019.csv).
-           Source: [*StatLine - (TODO)*]() (CBS): (TODO)
+           Source: [
+           *Bevolkingspiramide*](https://www.cbs.nl/nl-nl/visualisaties/dashboard-bevolking/bevolkingspiramide) (CBS)
     3. [`migration_background`](datasources/individual/migration_background)
         1. [Bev__migratieachtergr__regio__2010_2022_29122023_115517.csv](datasources/individual/migration_background/).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/84910NED/table?dl=9D32C) (CBS)
+           Source: [*Bevolking; migratieachtergrond, generatie, lft, regio, 1 jan;
+           2010-2022*](https://opendata.cbs.nl/#/CBS/nl/dataset/84910NED/table?dl=9D32C) (CBS StatLine)
     4. [`education`](datasources/individual/education)
         1. [Primair_onderwijs__schoolregio_18012024_150722.csv](datasources/individual/education/Primair_onderwijs__schoolregio_18012024_150722.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/71478NED/table?dl=9E57F) (
-           CBS)
+           Source: [*(Speciaal) basisonderwijs en speciale scholen; leerlingen,
+           schoolregio*](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/71478NED/table?dl=9E57F) (CBS StatLine)
         2. [Studenten__woonregio_2000_2022_18012024_150722.csv](datasources/individual/education/Studenten__woonregio_2000_2022_18012024_150722.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/71450NED/table?dl=9E581) (CBS)
+           Source: [*Leerlingen en studenten; onderwijssoort, woonregio 2000/'01-2022/'
+           23*](https://opendata.cbs.nl/#/CBS/nl/dataset/71450NED/table?dl=9E581) (CBS StatLine)
         3. [Bevolking__onderwijsniveau_en_herkomst_26012024_115001.csv](datasources/individual/education/Bevolking__onderwijsniveau_en_herkomst_26012024_115001.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/85453NED/table?dl=9EDBE) (CBS)
+           Source: [*Bevolking; hoogst behaald onderwijsniveau en
+           herkomst*](https://opendata.cbs.nl/#/CBS/nl/dataset/85453NED/table?dl=9EDBE) (CBS StatLine)
     5. [`drivers_license`](datasources/individual/drivers_license)
         1. [Personen_met_rijbewijs__categorie__regio_19052024_184228.csv](datasources/individual/drivers_license/Personen_met_rijbewijs__categorie__regio_19052024_184228.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/83488NED/table?dl=A628D) (CBS)
+           Source: [*Personen met een rijbewijs; rijbewijscategorie, leeftijd, regio, 1
+           januari*](https://opendata.cbs.nl/#/CBS/nl/dataset/83488NED/table?dl=A628D) (CBS StatLine)
     6. [`household_position`](datasources/individual/household_position)
         1. [Huishoudens__personen__regio_26122023_151215.csv](datasources/individual/household_position/Huishoudens__personen__regio_26122023_151215.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/71488ned/table?dl=9D241) (CBS)
+           Source: [*Huishoudens; personen naar geslacht, leeftijd en regio, 1
+           januari*](https://opendata.cbs.nl/#/CBS/nl/dataset/71488ned/table?dl=9D241) (CBS StatLine)
         2. [Huishoudens__samenstelling__regio_25052024_174751.csv](datasources/individual/household_position/Huishoudens__samenstelling__regio_25052024_174751.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/71486ned/table?dl=A68AA) (CBS)
+           Source: [*Huishoudens; samenstelling, grootte, regio, 1
+           januari*](https://opendata.cbs.nl/#/CBS/nl/dataset/71486ned/table?dl=A68AA) (CBS StatLine)
 3. [`household`](datasources/household)
     1. [`household_composition`](datasources/household/household_composition)
         1. [table_7ab235bf-b5a7-4077-bf56-3f5c8efec7d0.csv](datasources/household/household_composition/table_7ab235bf-b5a7-4077-bf56-3f5c8efec7d0.csv).
            Source: [*Groom usually older than
            bride*](https://www.cbs.nl/en-gb/news/2019/07/groom-usually-older-than-bride) (CBS)
         2. [Marriages__key_figures_25052024_182843.csv](datasources/household/household_composition/Marriages__key_figures_25052024_182843.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/en/dataset/37772eng/table?dl=A68BB) (CBS)
+           Source: [*Marriages and partnership registrations; key
+           figures*](https://opendata.cbs.nl/#/CBS/en/dataset/37772eng/table?dl=A68BB) (CBS StatLine)
         3. [Geboorte__kerncijfers_per_regio_25052024_182014.csv](datasources/household/household_composition/Geboorte__kerncijfers_per_regio_25052024_182014.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/37201/table?dl=A68B5) (CBS)
+           Source: [*Geboorte; kerncijfers vruchtbaarheid, leeftijd moeder,
+           regio*](https://opendata.cbs.nl/#/CBS/nl/dataset/37201/table?dl=A68B5) (CBS StatLine)
     2. [`postal_code`](datasources/household/postal_code)
-        1. [pc6hnr20190801_gwb.csv](datasources/household/postal_code/pc6hnr20190801_gwb.csv). Source: [*StatLine - (
-           TODO)*](https://www.cbs.nl/nl-nl/maatwerk/2019/42/buurt-wijk-en-gemeente-2019-voor-postcode-huisnummer) (
-           CBS):
+        1. [pc6hnr20190801_gwb.csv](datasources/household/postal_code/pc6hnr20190801_gwb.csv). Source: [*Buurt, wijk en
+           gemeente 2019 voor postcode
+           huisnummer*](https://www.cbs.nl/nl-nl/maatwerk/2019/42/buurt-wijk-en-gemeente-2019-voor-postcode-huisnummer)
+           (CBS):
     3. [`household_income`](datasources/household/household_income)
         1. [Inkomen_huishoudens__kenmerken__regio_25052024_182249.csv](datasources/household/household_income/Inkomen_huishoudens__kenmerken__regio_25052024_182249.csv).
-           Source: [*StatLine - (TODO)*](https://opendata.cbs.nl/#/CBS/nl/dataset/85064NED/table?dl=A68B8) (CBS)
+           Source: [*Inkomen van huishoudens; huishoudenskenmerken, regio (indeling
+           2021)*](https://opendata.cbs.nl/#/CBS/nl/dataset/85064NED/table?dl=A68B8) (CBS StatLine)
     4. [`vehicle_ownership`](datasources/household/vehicle_ownership)
         1. [Huishoudens_met_auto_of_motor__2010_2015_14062024_171657.csv](datasources/household/vehicle_ownership/Huishoudens_met_auto_of_motor__2010_2015_14062024_171657.csv).
            Source:
-           [*StatLine - (TODO)*](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81845NED/table?dl=A7D91) (CBS):
+           [*Huishoudens in bezit van auto of motor; huishoudkenmerken,
+           2010-2015*](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81845NED/table?dl=A7D91) (CBS StatLine):
 
 # Evaluation
 
